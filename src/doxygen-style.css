@@ -236,13 +236,13 @@ div.summary {
 /***********************************/
 
 a, a:visited, a:active, .contents a:visited, body.SRPage a, body.SRPage a:visited, body.SRPage a:active {
-    color: var(--bgfont);
+    color: var(--bgfont2);
     text-decoration: none;
 }
 
 a:hover, .contents a:hover, body.SRPage a:hover {
-    color: var(--bgfont-hover);
-    text-decoration: none;
+    color: var(--bgfont);
+    text-decoration: underline;
 }
 
 /***********************************/
